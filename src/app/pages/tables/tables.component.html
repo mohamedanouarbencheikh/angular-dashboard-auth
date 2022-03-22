@@ -1,0 +1,46 @@
+
+<div class=" content">
+  <div class=" row">
+    <div class=" col-md-12">
+      <div class=" card">
+        <div class=" card-header">
+          <h4 class=" card-title">Users Table</h4>
+        </div>
+        <div class=" card-body">
+          <div class="mini-scroll table-responsive">
+            <table class=" table tablesorter" id="">
+              <thead class=" text-primary">
+                <tr>
+                  <th>Company</th>
+                  <th>Username</th>
+                  <th>Email address</th>
+                  <th>First name</th>
+                  <th>Last name</th>
+                  <th>Address</th>
+                  <th>City</th>
+                  <th>Country</th>
+                  <th>Postal code</th>
+                  <th>Roles</th>
+                </tr>
+              </thead>
+              <tbody *ngFor="let data of users">
+              <tr>
+                <td>{{data.company}}</td>
+                <td>{{data.userName}}</td>
+                <td>{{data.email}}</td>
+                <td>{{data.firstName}}</td>
+                <td>{{data.lastName}}</td>
+                <td>{{data.address}}</td>
+                <td>{{data.city}}</td>
+                <td>{{data.country}}</td>
+                <td>{{data.postalCode}}</td>
+                <td *ngFor="let role of data.roleUser.role">{{role}}</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
