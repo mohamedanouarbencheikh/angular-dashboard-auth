@@ -17,9 +17,9 @@ The default password is : admin
 
 ### Installing
 
-* NodeJs.
-* NPM.
-* Angular 
+* NodeJs 16.13.1.
+* NPM 8.1.2.
+* Angular 13.1.1 
 
 ### Executing program
 
