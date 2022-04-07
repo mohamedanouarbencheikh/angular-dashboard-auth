@@ -2,6 +2,8 @@
 
 Angular dashboard with authentication
 
+![Product Gif](https://github.com/mohamedanouarbencheikh/angular-dashboard-auth/blob/master/angular-dashboard-auth.gif)
+
 ## Description
 
 This project was generated with [Angular CLI] version 13.1.1.
